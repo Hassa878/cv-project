@@ -1,0 +1,66 @@
+/* On prépare le cadre principal */
+.container {
+    display: flex; /* permet au div d'etre côte à côte*/
+    font-family: Arial, sans-serif;
+    max-width: 1000px; /* On l'élargit un peu */
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4 10px rgba(0,0,0,0.2);
+    min-height: 100vh; /* Pour que le bleu aille jusqu'en bas */
+}
+
+/*La colonne de gauche */
+.sidebar {
+    background-color: #2c3e50; 
+    color: white; /* Tout le texte devient blanc ici */
+    width: 30%;
+    padding: 30px;
+}
+
+/* Pour que les liens dans la sidebar soient blancs aussi */
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar ul {
+    padding-left: 40px;
+    color: white;
+}
+
+.sidebar li {
+    margin-bottom: 10px; /* Espace entre tes compétences */
+}
+
+/* La colonne de droite */
+.main-content {
+    width: 70%;
+    padding: 40px;
+}
+
+/* La photo */
+.photo-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.photo-container img {
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+}
+
+/* Ton nom : Élégant et imposant */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    color: #1a1a1a;
+    }
+
+.main-content h3 {
+    color: #2c3e50;
+}
